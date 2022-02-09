@@ -84,9 +84,9 @@ a:visited {
   padding: 11px 16px;
   display: inline-block;
   margin-top: 15px;
-  border:none;
+  border: none;
   text-align: center;
-  appearance:none;
+  appearance: none;
   -webkit-appearance: none;
 }
 .btn:hover {
@@ -173,8 +173,8 @@ a:visited {
   background-color: #ccc;
 }
 
-#header .mobile-menu-btn:hover .menu-icon{
-  color:#000;
+#header .mobile-menu-btn:hover .menu-icon {
+  color: #000;
 }
 
 #header .search-btn:hover {
@@ -189,9 +189,10 @@ a:visited {
 }
 
 #slider {
+  position: relative;
   margin-top: 46px;
   padding-top: 50%;
-  background: url("../img/slider/slider1.jpg") top center / cover no-repeat;
+  background: url("/assets/img/slider/slider1.jpg") top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -324,7 +325,6 @@ a:visited {
   line-height: 1.4;
 }
 
-
 /* CONTACT section  */
 
 .contact-content {
@@ -342,7 +342,7 @@ a:visited {
 }
 
 .contact-info a {
-  color:#101aef;
+  color: #101aef;
   opacity: 0.8;
 }
 
@@ -366,29 +366,28 @@ a:visited {
 }
 /* footer section  */
 #footer {
-  padding:64px 16px;
+  padding: 64px 16px;
   text-align: center;
 }
 
 #footer .socials-list {
-  font-size:24px;
+  font-size: 24px;
 }
 
-#footer .socials-list a{
-  color:rgba(0, 0, 0, 0.6);
+#footer .socials-list a {
+  color: rgba(0, 0, 0, 0.6);
 }
 #footer .copyright a:hover,
-#footer .socials-list a:hover{
-  color:rgba(0, 0, 0, 0.3);
+#footer .socials-list a:hover {
+  color: rgba(0, 0, 0, 0.3);
 }
 
 #footer .copyright {
-  margin-top:15px;
-  color:rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
-#footer .copyright a{
-  text-decoration:underline ;
-  color:rgba(0, 0, 0, 0.6);
+#footer .copyright a {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.6);
 }
-
